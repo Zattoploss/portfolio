@@ -1,0 +1,315 @@
+     html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f7ebeb;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+}
+
+#escuro input{
+display: none;    
+}
+
+#escuro {
+    
+margin-left:10%;
+    width: 100px;
+    background-color: rgba(1, 1, 1, 0);
+    border: none;
+}
+
+#header_top{
+    z-index:  5;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+padding-top: 20px;
+position: sticky;
+top: 0;
+background-color: #070044;
+}
+
+#header_top a{
+    text-decoration: none;
+}
+    
+#header_top a{
+    color: rgb(255, 255, 255);
+}
+
+#letra_principal a{
+    text-align: center;
+    font-size: 30px;
+    color: #484656;
+
+}
+#letra_principal{
+    font-size: 30px;
+    color: #484656;
+
+}
+
+#header_top img{
+display: flex;
+justify-content: right;   
+   border-radius: 180px;
+width: 99px;
+height: 94px;
+}
+
+#espaço{
+    padding: 60px;
+}
+
+#about_me{
+    display: grid;
+    grid-template-columns: 35% 65%;
+padding-left: 25%;
+}
+#about_me img{
+    padding-left: 35px;
+  height: 249px;
+  width: 530;
+    padding-bottom: 20px;
+}
+
+
+
+
+#vazio_roxo{
+padding-top: 300px;
+}
+
+#pading{
+    padding: 10%;
+}
+
+.header_top{
+    display: grid;
+    grid-template-columns: 23% 20% 20% 20% 20%;
+padding-top: 20px;
+}
+
+.header_top img{
+    padding-left: 20px;
+   
+   border-radius: 180px;
+    position: absolute;
+width: 99px;
+height: 94px;
+}
+
+.letra_grande{
+    padding-top: 7%;
+    text-align: center;
+    font-size: 3em;
+}
+#habilitis2{
+    padding: 5%;
+    text-align: center;
+        display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: left;
+    column-gap: 3%;
+}
+
+#habilitis{
+    padding: 5%;
+text-align: center;
+    display: grid;
+grid-template-columns: 50% 50%;
+justify-content: left;
+column-gap: 3%;
+}
+
+
+
+#habilitis div{
+padding-left: 5%;
+
+    text-align: center;
+width: 600px;}
+
+#litle_space{
+    padding-top: 5%;
+}
+
+#enviar{
+   margin-left: 45%;
+    text-align: center;
+    width: 10%;
+    height: 10%;
+}
+#grid{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+}
+#from_numb{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#form{
+    display: grid;
+    gap: 5%;
+    grid-template-columns: 1fr 1fr;
+}
+#form input{
+    margin-top: 20px;
+}
+#caixas_de_texto input{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+#caixas_de_texto div{
+    margin-top: 2%;
+}
+#espaçozinho{
+    padding-left: 99%;
+}
+#submit{
+    display: flex;
+    margin-left: 50%;
+margin-top: 3%;
+    text-align: center;
+}
+
+
+
+.swiper {
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    margin-top: 20px;
+  }
+.swiper-slide img{
+    background-size: cover;
+    width: 85%;
+    height: 100%;
+}
+
+
+
+.dark-mode {
+    background-color: rgb(34, 31, 31);
+    color: white;
+  }
+  .dark-mode #header_top{
+    background-color: #3727c4;
+    color: black;
+  }
+  #escuro i{
+    color: rgb(238, 202, 44);
+        font-size: 300%;
+    }
+    .dark-mode #escuro i{
+        color: white;
+    }
+  #escuro{
+    height: 50px;
+  }
+  
+
+  .dark-mode #header_top a{
+    color: white;
+  }
+  #rolar1{
+    position: absolute;
+  }
+  #rolar2{
+    position: absolute;
+    top: 600px;
+  }
+  #rolar3{
+    position: absolute;
+    top: 1500px;
+  }
+  #rolar4{
+    position: absolute;
+    
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.socials {
+    list-style: none;
+    padding: 0;
+}
+
+.socials li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.socials a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.socials a:hover {
+    text-decoration: underline;
+}
+
+/*----------------------------------------------Cerurar--------------------------------------------------------------*/
+
+@media (max-width: 500px) {
+
+#map{
+    display: none;
+    opacity: 0;
+}
+#fotoTeta{
+    padding: 0%;
+
+}
+#about_me img{
+    padding-left: 0px;
+  height: 209px;
+  width: 300;
+    padding-bottom: 20px;
+}
+    #header_top{
+        width: 100%;
+    }
+
+    #about_me {
+        padding: 20px 5%; /* Menos padding */
+    }
+
+    .letra_grande {
+        font-size: 2em; /* Reduzir tamanho da fonte */
+    }
+
+    
+
+    #grid {
+        grid-template-columns: 1fr; /* Uma coluna */
+        gap: 10px;
+    }
+
+
+    .swiper{
+        width: 500px;
+    }
+}
+

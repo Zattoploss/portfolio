@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>portifio</title>
+    <!-- httpswww.w3schools.comhowtohowto_css_smooth_scroll.asp#section2          id="btn" class="dark-mode" onclick="myFunction()"> -->
+
+</head>
+
+<body>
+    <span id="rolar1">&nbsp;</span>
+
+    <div id="header_top">
+
+        <div id="escuro">
+            <label class="switch">
+                <input type="checkbox" onclick="darkMode()" id="checado">
+                <span class="slider"><i class="fa-solid fa-circle"></i></span>
+            </label>
+        </div>
+
+        <a id="roll" class="rolar1" href="#rolar1">HOME</a>
+        <a id="roll2" class="rolar2" href="#rolar2">QUEM SOU</a>
+        <a id="roll3" class="rolar3" href="#rolar3">CONTACTS</a>
+        <a id="roll4" class="rolar4" href="#rolar4"> PROJETOS</a>
+
+    </div>
+    <div id="espaço"></div>
+    <div id="about_me">
+        <div id="okl">
+            Sou um jovem estudante do Cotemig, apaixonado por tecnologia e desenvolvimento web. Desde o início da minha jornada, tenho me dedicado a aprender e aprimorar minhas habilidades em HTML, CSS, JavaScript, C# e MySQL Workbench. Acredito que a tecnologia tem o poder de transformar ideias em realidade, e estou sempre em busca de novos desafios que me permitam crescer profissionalmente e expandir meu conhecimento. Estou animado para explorar o mundo do desenvolvimento e contribuir com soluções inovadoras.
+
+
+        </div>
+        <div id="fotoTeta"><img src="foto super profissa.jpg" alt=""></div>
+
+
+
+    </div>
+
+    <div id="espaço"></div>
+    <div id="litle_space"></div>
+
+    <div id="habilitis2">
+        <div>
+            <h1>MySQL Workbench</h1>
+            Sou proficiente em MySQL Workbench, uma ferramenta essencial para a modelagem e administração de bancos de dados. Utilizo-a para criar esquemas, realizar consultas complexas e gerenciar dados de forma eficaz. Minha experiência inclui a otimização de consultas para melhorar a performance e garantir a integridade dos dados, o que é fundamental em projetos que envolvem grande volume de informações.
+        </div>
+        <div>
+            <h1>C#</h1>
+            Minha experiência com C# me capacita a desenvolver aplicações robustas e escaláveis. Estou familiarizado com os princípios da programação orientada a objetos e utilizo essa linguagem para criar desde aplicações desktop até APIs para sistemas web. Minha habilidade em C# me permite trabalhar em projetos que exigem uma lógica complexa e integração com diferentes sistemas.
+        </div>
+
+    </div>
+    <span id="rolar2">&nbsp;</span>
+
+
+    <div id="habilitis2">
+        <div>
+            <h1>HTML</h1>
+            Tenho um forte domínio de HTML, que me permite estruturar páginas web de maneira clara e semântica. Compreendo a importância da acessibilidade e da usabilidade, e, por isso, sigo as melhores práticas de codificação para garantir que meus sites sejam não apenas visualmente atraentes, mas também funcionais e acessíveis a todos os usuários.
+        </div>
+        <div>
+            <h1>JavaScript</h1>
+            No campo do JavaScript, tenho trabalhado para adicionar interatividade e dinamismo às minhas aplicações web. Conheço diversas bibliotecas e frameworks, como jQuery e React, que me ajudam a desenvolver interfaces responsivas e interativas. Estou sempre buscando aprender novas técnicas e padrões de desenvolvimento para aprimorar a experiência do usuário em minhas aplicações.
+        </div>
+
+    </div>
+
+
+
+    <div class="letra_grande">MEUS CONTATOS</div>
+    <div id="litle_space">
+        <div></div>
+        <span id="rolar3">&nbsp;</span>
+
+    </div>
+    <div id="grid">
+        <div id="caixas_de_texto">
+            <form id="form" action="#form">
+                <h2>Nome:</h2>
+                <h2>Email:</h2>
+                <input type="text" placeholder="Nome:">
+                <input type="email" placeholder="Email:">
+
+                <h2>Telefone:</h2>
+                <h2>CPF:</h2>
+                <input type="tel" maxlength="15" onkeyup="handlePhone(event)" placeholder="Telefone:" />
+                <input id="CPF" class="required" type="text" name="CPF" placeholder="XXX.XXX.XXX-XX" minlength="14"
+                    maxlength="14" oninput="CpfValidate()">
+
+
+                <div id="espaçozinho"><input type="submit" value="enviar" id="submit" onclick="mensage()"></div>
+
+
+            </form>
+        </div>
+        <div> <iframe id="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24187.001769809238!2d-73.48695945983913!3d40.73176841875278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e82abc086c351f%3A0x1527e912084fc47b!2sFarmingdale%2C%20NY%2011735%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1720694692585!5m2!1spt-BR!2sbr"
+                width="80%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    </div>
+
+    </div>
+
+
+    <div id="litle_space">
+        <div></div>
+    </div>
+
+    <div id="vazio_roxo">
+        <div></div>
+    </div>
+
+    <div class="swiper">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide"><img src="fotoloandi.png"></div>
+            <div class="swiper-slide"><img src="ifood.png"></div>
+            <div class="swiper-slide"><img src="simulado_2.png" alt=""></div>
+            <div class="swiper-slide"><img src="periodica.png" alt=""></div>
+            ...
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+
+        <div class="swiper-scrollbar"></div>
+    </div>
+
+    <div id="litle_space"></div>
+
+    <footer>
+
+        <div class="footer-content">
+            <div></div>
+            <p>&copy; 2024 Samuel Busatto Ribas. Todos os direitos reservados.</p>
+            <ul class="socials">
+                <li><a href="https://github.com/seu-usuario" target="_blank">GitHub</a></li>
+                <span id="rolar4">&nbsp;</span>
+                <li><a href="https://linkedin.com/in/seu-usuario" target="_blank">LinkedIn</a></li>
+                <li><a href="mailto:samuelbribas@gmail.com">Email</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="java.js" defer></script>
